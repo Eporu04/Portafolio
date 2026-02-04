@@ -71,6 +71,8 @@ header{
     width: 25vw;
     margin-right: 1vw;
     }
+
+    
 }
 
 section#quienSoy{
@@ -78,39 +80,7 @@ section#quienSoy{
     margin: 47px; */
     section{
         section{
-            a{
-                position:relative;
-                img{
-                    position:absolute;
-                    filter: brightness(50%);
-                    transition: 0.5s;
-                    height: 50vh;
-                }
 
-                p{
-                    position: absolute;
-                    margin-left: 5vw;
-                    margin-top: 25vh;
-                    color: white;
-                    transition: 0.5s;
-                    font-size: large;
-                    opacity: 100%;
-                }
-            }
-
-            a:hover{
-                
-                p{
-                    transition: 0.25s;
-                    margin-top: 40vh;
-                    opacity: 0%;
-                }
-
-                img{
-                    filter: brightness(100%);
-                    transition: 0.5s;
-                }
-            }
         }
         article{
             margin-right: 45vw !important;
@@ -131,11 +101,12 @@ section#Conocimientos-Informaticos{
 
             img{
             filter: drop-shadow(0.5vw 1vh 0.2em #0000004c);
+            aspect-ratio: 1 / 1;
             }
 
             img:nth-child(1){
                 position: absolute;
-                height: 19vh;
+                height: auto;
                 width: 9vw;
                 animation: imgMove 3s;
                 animation-iteration-count: infinite;
@@ -143,7 +114,7 @@ section#Conocimientos-Informaticos{
 
             img:nth-child(2){
                 position: absolute;
-                height: 17vh;
+                height: auto;
                 width: 8vw;
                 align-self: flex-end;
                 margin-left: 15vw;
@@ -155,7 +126,7 @@ section#Conocimientos-Informaticos{
 
             img:nth-child(3){
                 position: absolute;
-                height: 14vh;
+                height: auto;
                 width: 6.5vw;
                 align-self: center;
                 margin-left: 9vw;
