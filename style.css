@@ -47,32 +47,18 @@ header{
     margin: 0.9em;
     display: flex;
     margin-left: 8vw;
+}
 
-    section.cont{
+.cont{
     background-color: aliceblue;
     border-radius: 0.9em;
     height: 50vh;
     width: 25vw;
-    }
-
-    article{
-    margin-right: 0.9em;
-    }
 }
 
 .contDer{
     display: flex;
     margin-left: 8vw;
-
-    section.cont{
-    background-color: aliceblue;
-    border-radius: 0.9em;
-    height: 50vh;
-    width: 25vw;
-    margin-right: 1vw;
-    }
-
-    
 }
 
 section#quienSoy{
@@ -80,16 +66,9 @@ section#quienSoy{
     margin: 47px; */
     section{
         section{
-
-        }
-        article{
-            margin-right: 45vw !important;
-
-            dt{
-                font-weight: bold;
-                font-size: large;
-                margin-bottom: 0.1vh;
-            }
+            background-color: aliceblue;
+            border-radius: 0.9em;
+            height: 50vh;
         }
     }
 }
@@ -214,7 +193,12 @@ main{
 }
 
 .card-body{
-    width: 185px;
+    width: 13.5vw;
+
+    h5{
+        text-align: center;
+    }
+
 }
 
 h1 {
