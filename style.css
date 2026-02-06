@@ -74,6 +74,12 @@ section#quienSoy{
             justify-content: center;
             align-content: center;
             width: 50%;
+            img{
+                border-radius: 50%;
+                height: 50vh;
+                width: 50vh;
+                margin-left: 10vw;
+            }
         }
     }
 }
