@@ -50,7 +50,6 @@ header{
 }
 
 .cont{
-    background-color: aliceblue;
     border-radius: 0.9em;
     height: 50vh;
     width: 25vw;
@@ -65,10 +64,16 @@ section#quienSoy{
     /* border: #C27913 solid 1px;
     margin: 47px; */
     section{
-        section{
-            background-color: aliceblue;
+        section.text{
             border-radius: 0.9em;
             height: 50vh;
+            align-content: center;
+        }
+
+        section.perfil{
+            justify-content: center;
+            align-content: center;
+            width: 50%;
         }
     }
 }
