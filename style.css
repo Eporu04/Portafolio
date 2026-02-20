@@ -77,7 +77,7 @@ section#quienSoy{
             img{
                 border-radius: 50%;
                 height: 50vh;
-                width: 50vh;
+                width: 50vw;
                 margin-left: 10vw;
             }
         }
@@ -139,7 +139,7 @@ section#Conocimientos-Informaticos{
     100% {transform: translateY(0vh);}
 }
 
-#menuPrincipal{
+#menuPrincipalPC{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -148,6 +148,12 @@ section#Conocimientos-Informaticos{
     height: 59px;
     width: 100vw;
     box-shadow: inset 0vw 1vh 0.25em #0000004c;
+}
+
+#menuPrincipalMovil{
+    display: none;
+    background-color:#C27913;
+    border: none;
 }
 
 .menu{

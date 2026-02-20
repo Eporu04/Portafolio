@@ -11,6 +11,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleMovil.css">
 </head>
 
 <body>
@@ -25,7 +26,21 @@
             <a href="https://github.com/Eporu04"><img src="./imagenes/GitHub.png" alt="Github"></a>
         </section>
     </header>
-    <section id="menuPrincipal" class="z-4">
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample" id="menuPrincipalMovil">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <section>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-body">
+                <button class="dropdown-item btn-navbar" href="#quienSoy">¿Quien soy?</button>
+                <button class="dropdown-item btn-navbar" href="#Conocimientos-Informaticos">Conocimientos informaticos</button>
+                <button class="dropdown-item btn-navbar" href="#Proyecto">Proyectos</button>
+            </div>
+        </div>
+    </section>
+    <section id="menuPrincipalPC" class="z-4">
         <a href="#quienSoy" class="menu btn btn-light">¿Quien soy?</a>
         <a href="#Conocimientos-Informaticos" class="menu btn btn-light">Conocimientos informaticos</a>
         <a href="#Proyecto" class="menu btn btn-light">Proyectos</a>
@@ -36,7 +51,7 @@
             <section class="text">
                 <p>Me llamo Francisco Moreno Alcaraz y soy un desarrollador de aplicaciones web</p>
                 <p>Me encanta mucho programar y descubrir nuevos técnologías <br>
-                con el fin de mejorar y ampliar mis conocimientos. </p>
+                    con el fin de mejorar y ampliar mis conocimientos. </p>
             </section>
             <section class="perfil">
                 <img src="./imagenes/foto.png" alt="foto de perfil" class="shadow">
@@ -51,7 +66,7 @@
                 <img src="./imagenes/css.png" alt="CSS logo">
                 <img src="./imagenes/JS.png" alt="JS logo">
             </section>
-            <article style="display: flex; margin-bottom: 28px;">
+            <article>
                 <section class="card">
                     <section class="card-body shadow-lg rounded">
                         <h5 class="card-title">Lenguajes</h5>
@@ -96,9 +111,6 @@
                         </section>
                     </section>
                 </section>
-                <section class="card">
-                    <section class="card-body"></section>
-                </section>
             </article>
         </section>
     </section>
@@ -106,7 +118,7 @@
         <h1 class="text-center">Proyectos</h1>
         <section class="contDer">
             <article style="display: flex;">
-                <section class="btn-group-vertical" style="height: 60px;" >
+                <section class="btn-group-vertical" style="height: 60px;">
                     <button type="button" class="btn btn-outline-warning" data-bs-toggle="collapse" href="#openOverlay"
                         role="button" aria-expanded="false">Open Overlay</button>
                     <button type="button" class="btn btn-outline-warning" data-bs-toggle="collapse" href="#Gestor"
@@ -169,7 +181,8 @@
                                             CSS
                                         </section>
                                     </section>
-                                    <a href="https://github.com/framoralc/DWEC_gestorPresupuesto_25_26">Enlace al Proyecto</a>
+                                    <a href="https://github.com/framoralc/DWEC_gestorPresupuesto_25_26">Enlace al
+                                        Proyecto</a>
                                 </section>
                                 <section>
                                     <img src="./imagenes/DWEC.png" alt="DWEC" class="imgProyectos "
