@@ -67,7 +67,8 @@ section#quienSoy{
     section{
         section.text{
             border-radius: 0.9em;
-            height: 50vh;
+            height: auto;
+            width: 50%;
             align-content: center;
         }
 
@@ -76,10 +77,10 @@ section#quienSoy{
             align-content: center;
             width: 50%;
             img{
-                aspect-ratio: auto;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
                 border-radius: 50%;
-                height: 50vh;
-                width: 25vw;
+                width: 20vw;
                 margin-left: 10vw;
             }
         }
@@ -233,7 +234,6 @@ h1 {
 }
 
 .botones-proyecto{
-    display: flex;
 
     section.btn-group{
         height: 60px;

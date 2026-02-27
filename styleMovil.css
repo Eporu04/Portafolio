@@ -62,15 +62,19 @@
     }
 
     section#Conocimientos-Informaticos {
-        height: 70vh;
+        height: auto !important;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+        margin-top: 2vh !important;
+        display: block;
 
         section {
-            margin-top: 1vh;
+            margin-top: 0vh !important;
 
             section {
-                display: relative;
-                height: 9vh;
-                margin-bottom: 0vh;
+                display: block;
+                height: 50vh !important;
+                position: relative;
 
                 img {
                     filter: drop-shadow(0.5vw 1vh 0.2em #0000004c);
@@ -115,7 +119,7 @@
             }
 
             article {
-                margin-bottom: 40vh;
+                margin-bottom: 5vh !important;
             }
         }
 
@@ -125,6 +129,7 @@
     .contDer {
         display: block;
         margin-left: 8vw;
+        
     }
 
     .card-body {
