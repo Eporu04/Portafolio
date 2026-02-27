@@ -58,6 +58,7 @@ header{
 .contDer{
     display: flex;
     margin-left: 8vw;
+    margin-bottom: 2vh;
 }
 
 section#quienSoy{
@@ -75,9 +76,10 @@ section#quienSoy{
             align-content: center;
             width: 50%;
             img{
+                aspect-ratio: auto;
                 border-radius: 50%;
                 height: 50vh;
-                width: 50vw;
+                width: 25vw;
                 margin-left: 10vw;
             }
         }
@@ -88,6 +90,7 @@ section#Conocimientos-Informaticos{
     section{
         section{
             display: relative;
+            margin-bottom: 6vh;
 
             img{
             filter: drop-shadow(0.5vw 1vh 0.2em #0000004c);
@@ -129,6 +132,10 @@ section#Conocimientos-Informaticos{
             section{
                 margin-right: 2vw;
             }
+        }
+
+        article{
+            display: flex;
         }
     }
 }
@@ -215,7 +222,6 @@ main{
     h5{
         text-align: center;
     }
-
 }
 
 h1 {
@@ -224,4 +230,12 @@ h1 {
     font-weight: bold;
     font-style: normal;
     font-variation-settings:"width" 100;
+}
+
+.botones-proyecto{
+    display: flex;
+
+    section.btn-group{
+        height: 60px;
+    }
 }
